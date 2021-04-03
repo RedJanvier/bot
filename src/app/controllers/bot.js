@@ -14,12 +14,7 @@ class BotControllers {
           text: `Sorry <@${event.user}>! :pensive: I'm not able to respond yet...\nCan you try running "Hello @Bot" instead!`,
         });
       } else {
-        /* const user = await this.Services.Response.findOne({
-          userId: `${event.user}`,
-        });
-        if (!user) {
-          await this.Services.Response.create({ userId: `${event.user}` });
-        } */
+        await this.Services.Response.create({ userId: `${event.user}` });
         await this.Slack.Messages.sendMessage(
           event.channel,
           this.Templates.messageJsonBlock
