@@ -11,4 +11,4 @@ You can check all the records of users that already responded to the bot and you
 - Phone: **+250789775922**
 - Email: **janvierntwali@gmail.com**
 - Linkedin: **https://linkedin.com/in/red-janvier/**
-- Portfolio: **https://redjanvier.netlify.app/UI**
+- Portfolio: **https://redjanvier.uzakurahub.xyz**
